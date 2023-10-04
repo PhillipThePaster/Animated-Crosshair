@@ -3,7 +3,7 @@ local Camera = game:GetService("Workspace").CurrentCamera
 local RunService = game:GetService("RunService")
 
 local settings = {
-	Visible = true,
+    Visible = true,
     size = 10,
     spinSpeed = 2,
     SpinAnimation = true,
