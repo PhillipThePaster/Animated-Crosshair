@@ -8,14 +8,13 @@ local settings = {
     spinSpeed = 2;
     SpinAnimation = true;
     pos = Vector2.new(0, 0);
-    Thickness = 1;
 }
 
 local lineSets = {
-    {count = settings.size, settings.Thickness, direction = 0, visible = settings.Visible},   -- Bottom
-    {count = settings.size, settings.Thickness, direction = 90, visible = settings.Visible},  -- Top
-    {count = settings.size, settings.Thickness, direction = 180, visible = settings.Visible}, -- Right
-    {count = settings.size, settings.Thickness, direction = 270, visible = settings.Visible}  -- Left
+    {count = settings.size, thickness = 1, direction = 0, visible = settings.Visible},   -- Bottom
+    {count = settings.size, thickness = 1, direction = 90, visible = settings.Visible},  -- Top
+    {count = settings.size, thickness = 1, direction = 180, visible = settings.Visible}, -- Right
+    {count = settings.size, thickness = 1, direction = 270, visible = settings.Visible}  -- Left
 }
 local drawings = {}
 
